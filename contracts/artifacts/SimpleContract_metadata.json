@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "setMyName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/SimpleContract.sol": {
-			"keccak256": "0xa531e4586bf97a2296dfb06604cbab6f1f709ed7ec07227dbac863c629c43d1a",
+			"keccak256": "0x722abab82a7630d6d149ee520461efdac04ecc312211cd59dc796e6d8a628579",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5140f02b856eeb2fd964b5b5469458bb1882298f47e97d78740c5c647019e5cd",
-				"dweb:/ipfs/QmZUv23E1Ca3wbSQExNEtG6nZ6QkQN42Vy5KCxMBQ7Nevk"
+				"bzz-raw://2557900ef2a00863d4c2f8780ed94663f954c5e1e779205e6012a599f2f0db9b",
+				"dweb:/ipfs/QmY3Fsh7WLSMkK4Psp834cjS5zaUiVVyYGG51KA7QPhZKy"
 			]
 		}
 	},
