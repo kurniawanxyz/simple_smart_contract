@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "createTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showTodo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "text",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "done",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamps",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Todo.TodoItem[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todoItems",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "done",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamps",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Todo.sol": "Todo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Todo.sol": {
+			"keccak256": "0x651f7696c721656fdb5d9942ab5a93d862511e5e96ecc1e7cfbab2a4e6fc96b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8687e74c24640881f3c5120027d6b0f6ff6c5f5f43b83025b7dc74bdf1848df0",
+				"dweb:/ipfs/QmXARj4VUgsjZtnwNrHoVA4YUBsz7Pf6iH4i3J5FTJxhvh"
+			]
+		}
+	},
+	"version": 1
+}
