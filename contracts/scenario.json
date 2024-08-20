@@ -1,0 +1,60 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1724120664075,
+      "record": {
+        "value": "10000000000000000000",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xfb6204df087a5a9d1487a23e1bcee38ea86ef5a01dd079bb67e9ef52432c8467",
+        "contractName": "ExampleMapping2",
+        "bytecode": "608060405234801561001057600080fd5b506101ec806100206000396000f3fe6080604052600436106100345760003560e01c80630adec93c1461003957806312065fe014610062578063cbedbf5a1461008d575b600080fd5b34801561004557600080fd5b50610060600480360381019061005b9190610155565b610097565b005b34801561006e57600080fd5b506100776100e8565b604051610084919061019b565b60405180910390f35b6100956100f0565b005b8073ffffffffffffffffffffffffffffffffffffffff166108fc6100b96100e8565b9081150290604051600060405180830381858888f193505050501580156100e4573d6000803e3d6000fd5b5050565b600047905090565b565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610122826100f7565b9050919050565b61013281610117565b811461013d57600080fd5b50565b60008135905061014f81610129565b92915050565b60006020828403121561016b5761016a6100f2565b5b600061017984828501610140565b91505092915050565b6000819050919050565b61019581610182565b82525050565b60006020820190506101b0600083018461018c565b9291505056fea2646970667358221220b930eecb7720377cd8f480dc4d32bab76b036bbce787dbfa90f4320ee37d6e6164736f6c634300080e0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xfb6204df087a5a9d1487a23e1bcee38ea86ef5a01dd079bb67e9ef52432c8467": [
+      {
+        "inputs": [],
+        "name": "getBalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "sendMoney",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address payable",
+            "name": "_to",
+            "type": "address"
+          }
+        ],
+        "name": "withdrawAllMoney",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]
+  }
+}
